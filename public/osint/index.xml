@@ -6,8 +6,22 @@
     <description>Recent content in Osints on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Aug 2025 09:53:27 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 09:59:22 +0530</lastBuildDate>
     <atom:link href="https://team-meowsec.github.io/osint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Holy System</title>
+      <link>https://team-meowsec.github.io/osint/holy_system/</link>
+      <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
+      <guid>https://team-meowsec.github.io/osint/holy_system/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This man claims that God himself chose him to be his programming and he wrote an entire operating system in less than 100,000 lines of code.&#xA;&#xA;What is the name of the language the OS was written in and what acted as its oracle?&#xA;&#xA;flag format: meowsec{os_name-oracle_program_name}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The person being referred to here is Terry Davis. A programmer known for creating TempleOS, an entire operating system. He made his own programming language known as holy C.&#xA;Davis began experiencing regular manic episodes, one of which led him to hospitalization. Initially diagnosed with bipolar disorder, he was later declared to have schizophrenia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Who are you?</title>
+      <link>https://team-meowsec.github.io/osint/who_are_you/</link>
+      <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
+      <guid>https://team-meowsec.github.io/osint/who_are_you/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;I wonder who &amp;#34;minato500&amp;#34; is. I heard he plays a lot of CTF&amp;#39;s. Can you find their full name?&#xA;&#xA;Flag format: meowsec{full_name}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Just a quick google search of &lt;code&gt;minato500&lt;/code&gt; will lead you to his CTFtime page, which contains his full name&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://team-meowsec.github.io/osint/who_are_you/minato.png&#34; alt=&#34;full name&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Final Flag:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;meowsec{harish_kumar_n}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     <item>
       <title>Git Gud</title>
       <link>https://team-meowsec.github.io/osint/git_gud/</link>

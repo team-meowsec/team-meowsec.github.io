@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   
-    <title>Osints :: Terminal</title>
+    <title>Cryptos :: Terminal</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="https://team-meowsec.github.io/osint/" />
+<link rel="canonical" href="https://team-meowsec.github.io/crypto/" />
 
 
 
@@ -77,9 +77,9 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Osints">
+<meta property="og:title" content="Cryptos">
 <meta property="og:description" content="" />
-<meta property="og:url" content="https://team-meowsec.github.io/osint/" />
+<meta property="og:url" content="https://team-meowsec.github.io/crypto/" />
 <meta property="og:site_name" content="Terminal" />
 
   <meta property="og:image" content="https://team-meowsec.github.io/og-image.png">
@@ -91,7 +91,7 @@
 
 
 
-  <link href="/osint/index.xml" rel="alternate" type="application/rss+xml" title="Terminal" />
+  <link href="/crypto/index.xml" rel="alternate" type="application/rss+xml" title="Terminal" />
 
 
 
@@ -208,7 +208,7 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="https://team-meowsec.github.io/osint/holy_system/">Holy System</a>
+          <a href="https://team-meowsec.github.io/crypto/cipher_408/">Cipher 408</a>
         </h2>
         <div class="post-meta"><time class="post-date">2025-08-04</time></div>
 
@@ -219,26 +219,27 @@
 
         <div class="post-content">
           
-            <pre tabindex="0"><code>This man claims that God himself chose him to be his programming and he wrote an entire operating system in less than 100,000 lines of code.
+            <pre tabindex="0"><code>An old scrap of paper was found in a dusty archive, filled with strange symbols. No one knows who wrote it—but some say it&#39;s connected to an infamous cold case. The symbols aren’t just decoration. They hold a message, and maybe even a flag.
 
-What is the name of the language the OS was written in and what acted as its oracle?
-
-flag format: meowsec{os_name-oracle_program_name}
-</code></pre><p>The person being referred to here is Terry Davis. A programmer known for creating TempleOS, an entire operating system. He made his own programming language known as holy C.
-Davis began experiencing regular manic episodes, one of which led him to hospitalization. Initially diagnosed with bipolar disorder, he was later declared to have schizophrenia.</p>
+Flag format: flag{text}
+</code></pre><p><img src="/crypto/cipher_408/Zodiac.png" alt="Zodiac Cipher"></p>
+<p>Reverse searching this image will lead you to this wikipedia article.</p>
+<p><a href="https://en.wikipedia.org/wiki/File:Zodiac_Z340_cipher_key.png">https://en.wikipedia.org/wiki/File:Zodiac_Z340_cipher_key.png</a></p>
+<p>Something about Zodiac, digging deeper, you can uncover information about the zodiac killer and the encrypted messages sent by that person.The cipher was solved after 51 years.
+You can read more about it here and decode it yourself</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/osint/holy_system/">[Read more]</a>
+            <a class="read-more button inline" href="/crypto/cipher_408/">[Read more]</a>
           </div>
         
       </article>
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="https://team-meowsec.github.io/osint/who_are_you/">Who are you?</a>
+          <a href="https://team-meowsec.github.io/crypto/onion_peel/">Onion Peel</a>
         </h2>
         <div class="post-meta"><time class="post-date">2025-08-04</time></div>
 
@@ -249,59 +250,30 @@ Davis began experiencing regular manic episodes, one of which led him to hospita
 
         <div class="post-content">
           
-            <pre tabindex="0"><code>I wonder who &#34;minato500&#34; is. I heard he plays a lot of CTF&#39;s. Can you find their full name?
-
-Flag format: meowsec{full_name}
-</code></pre><p>Just a quick google search of <code>minato500</code> will lead you to his CTFtime page, which contains his full name</p>
-<p><img src="/osint/who_are_you/minato.png" alt="full name"></p>
-<p>Final Flag:</p>
-<pre tabindex="0"><code>meowsec{harish_kumar_n}
-</code></pre>
-          
-        </div>
-
-        
-           <div>
-            <a class="read-more button inline" href="/osint/who_are_you/">[Read more]</a>
-          </div>
-        
-      </article>
+            <pre tabindex="0"><code>Each layer hides a deeper truth, and your task is to peel them back one by one. The more layers you remove, the closer you’ll get to the flag hidden at the core.
+</code></pre><p>We have 2 files</p>
+<p>random_encodings.py:</p>
+<pre tabindex="0"><code>import random
+import base64
+f=open(&#34;flag.txt&#34;,&#34;r&#34;)
+flag=f.read()
+for i in range(10):
     
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="https://team-meowsec.github.io/osint/git_gud/">Git Gud</a>
-        </h2>
-        <div class="post-meta"><time class="post-date">2025-08-04</time></div>
-
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="git-gud">Git Gud</h1>
-<pre tabindex="0"><code>We intercepted a secret communication between 2 people, they seem to be planning a hack on google, can you find out their secret?
-
-quixel200: hey man, I made a repo to share our theories. 
-
-minato500: good job, just make sure its private. 
-
-quixel200: wait its public!!! 
-
-minato500: !!!?? Ill mangle the secret so nobody finds out, ill make the repo look normal. 
-
-quixel200: we&#39;re so smart, nobody&#39;s gonna find out, right?
-
-(they forgor to make it private in the end)
-flag format: KALAM25{.....}
-</code></pre><p>We have two usernames that we can infer from this conversation, <code>minato500</code> and <code>quixel200</code>. One of them says they made a &lsquo;repo&rsquo; which refers to a github repository. A quick google search would have been sufficient to learn about this.</p>
+    choice=random.randint(1,2)
+    if choice == 1:
+        flag = base64.b64encode(flag.encode()).decode()
+    elif choice == 2:
+        flag = flag.encode().hex()
+print(flag)
+</code></pre><p>output.txt:</p>
+<pre tabindex="0"><code>5458704e656b31365458704e656c56365458704e656b31365458704f616b31365458704e656b31365458704e656b31365458704e656b31365358704e656b31365458704e656b31365458704e656b31365458704e643031365458704e656b31365458706a656b31365458704e656b31365430524e656b31365458704e656b30775458704e656b35715458704e656c56365458704e656b31365458704f524531365458704e656b313654544e4e656b31365458704e656b31365558704e656b31365458704e656b35715458704e656b31365458704e4d4531365458704e656b31365458706a656b31365458704e656b3136546d704e656b31365458704e656b31355458704e656b31365458704e656b31365458704e656b31365458704e656b31365458704e656b313654544e4e656b31365458704e656b31365158704e656b31365458704e656b35715458704e656c6c365458704e655531365458704e656b313654587056656b31365458704e656b31365457704e656b31365458704e656b31365458704e656b31365458704e656b31365458704e656b31365458704f564531365458704e656b313654586c4e656b31365458704e656b31365933704e656b31365458704e656b31455458704e656b31365458704e4d5531365458704e656b313654587052656b31365458704e656b3136546c524e656b31365458704e656b30775458704e656b31365458704e656c46365458704e656b31365458704f616b31365458704e656b313654544a4e656b31365458704e656b31365258704e656b31365458704e656b35715458704e656b31365458704e656b31365458704e656b313654587052656b31365458704e656b3136546d704e656b31365458704e656b30795458704e656b35715458704e656b31365458704e656b31365458704f656b31365458704e656b313654586c4e656b31365458704e656b31365658704e656b30795458704e656b31555458704e656b31365458704e4d4531365458704e656b31365458705a656b31365458704e656b3136546d704e656b31365458704e656b30775458704e656b31365458704e656c6c365458704e656b31365458704e564531365458704e656b313654544a4e656b31365458704e656b31365358704e656b31365458704e656b35555458704e656b31365458704e4d6b31365458704e656b313654587052656b313654544a4e656b31365456524e656b31365458704e656b30775458704e656b35715458704e656b56365458704e656b31365458704f564531365458704e656b31365454464e656b31365458704e656b31365458704e656b31365458704e656b31715458704e656b31365458704e656b31365458704e656b313654587056656b31365458704e656b3136546d704e656b31365458704e656b31345458704e656b31365458704e656c6c365458704e656b31365458704e564531365458704e656b31365458704e656b31365458704e656b31365258704e656b31365458704e656b35555458704e656b31365458704e4e5531365458704e656b31365458706a656b31365458704e656b3136546e704e656b31365458704e656b30795458704e656b31365458704e656b31365458704e656b31365458704f524531365458704e656b31365454524e656b31365458704e656b31365933704e656b31365458704e656b31455458704e656b31365458704e4d5531365458704e656b31365458706e656b31365458704e656b3136546d704e656b31365458704e656b31355458704e656b31365458704e656c46365458704e656b31365458704f656b31365458704e656b313654544a4e656b31365458704e656b31365558704e656b31365458704e656b31365458704e656b31365458704e656b31365458704e656b313654587056656b31365458704e656b3136546c524e656b31365458704e656b31365458704e656b31365458704e656b31365458704e656b31365458704f616b31365458704e656b31365458704e656b31365458704e656b31365458704e656b31365458704e656b39555458704e656b31365458704e4d5531365458704e656b313654587042656b31365458704e656b3136546c524e656b31365458704e656b31345458704e656b31365458704e656b31365458704e4d6b31365458704f524531365458704e656b31365458704e656b3136546d704e656b31365554303d
+</code></pre><p>If you read the python code, its pretty clear what its doing.</p>
           
         </div>
 
         
            <div>
-            <a class="read-more button inline" href="/osint/git_gud/">[Read more]</a>
+            <a class="read-more button inline" href="/crypto/onion_peel/">[Read more]</a>
           </div>
         
       </article>

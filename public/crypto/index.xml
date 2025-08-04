@@ -1,40 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
-    <link>https://team-meowsec.github.io/</link>
-    <description>Recent content on Terminal</description>
+    <title>Cryptos on Terminal</title>
+    <link>https://team-meowsec.github.io/crypto/</link>
+    <description>Recent content in Cryptos on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Aug 2025 09:59:22 +0530</lastBuildDate>
-    <atom:link href="https://team-meowsec.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Holy System</title>
-      <link>https://team-meowsec.github.io/osint/holy_system/</link>
-      <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
-      <guid>https://team-meowsec.github.io/osint/holy_system/</guid>
-      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This man claims that God himself chose him to be his programming and he wrote an entire operating system in less than 100,000 lines of code.&#xA;&#xA;What is the name of the language the OS was written in and what acted as its oracle?&#xA;&#xA;flag format: meowsec{os_name-oracle_program_name}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The person being referred to here is Terry Davis. A programmer known for creating TempleOS, an entire operating system. He made his own programming language known as holy C.&#xA;Davis began experiencing regular manic episodes, one of which led him to hospitalization. Initially diagnosed with bipolar disorder, he was later declared to have schizophrenia.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Who are you?</title>
-      <link>https://team-meowsec.github.io/osint/who_are_you/</link>
-      <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
-      <guid>https://team-meowsec.github.io/osint/who_are_you/</guid>
-      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;I wonder who &amp;#34;minato500&amp;#34; is. I heard he plays a lot of CTF&amp;#39;s. Can you find their full name?&#xA;&#xA;Flag format: meowsec{full_name}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Just a quick google search of &lt;code&gt;minato500&lt;/code&gt; will lead you to his CTFtime page, which contains his full name&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://team-meowsec.github.io/osint/who_are_you/minato.png&#34; alt=&#34;full name&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Final Flag:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;meowsec{harish_kumar_n}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
+    <lastBuildDate>Mon, 04 Aug 2025 09:53:27 +0530</lastBuildDate>
+    <atom:link href="https://team-meowsec.github.io/crypto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cipher 408</title>
       <link>https://team-meowsec.github.io/crypto/cipher_408/</link>
       <pubDate>Mon, 04 Aug 2025 09:53:27 +0530</pubDate>
       <guid>https://team-meowsec.github.io/crypto/cipher_408/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;An old scrap of paper was found in a dusty archive, filled with strange symbols. No one knows who wrote it—but some say it&amp;#39;s connected to an infamous cold case. The symbols aren’t just decoration. They hold a message, and maybe even a flag.&#xA;&#xA;Flag format: flag{text}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://team-meowsec.github.io/crypto/cipher_408/Zodiac.png&#34; alt=&#34;Zodiac Cipher&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Reverse searching this image will lead you to this wikipedia article.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/File:Zodiac_Z340_cipher_key.png&#34;&gt;https://en.wikipedia.org/wiki/File:Zodiac_Z340_cipher_key.png&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Something about Zodiac, digging deeper, you can uncover information about the zodiac killer and the encrypted messages sent by that person.The cipher was solved after 51 years.&#xA;You can read more about it here and decode it yourself&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Git Gud</title>
-      <link>https://team-meowsec.github.io/osint/git_gud/</link>
-      <pubDate>Mon, 04 Aug 2025 09:53:27 +0530</pubDate>
-      <guid>https://team-meowsec.github.io/osint/git_gud/</guid>
-      <description>&lt;h1 id=&#34;git-gud&#34;&gt;Git Gud&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;We intercepted a secret communication between 2 people, they seem to be planning a hack on google, can you find out their secret?&#xA;&#xA;quixel200: hey man, I made a repo to share our theories. &#xA;&#xA;minato500: good job, just make sure its private. &#xA;&#xA;quixel200: wait its public!!! &#xA;&#xA;minato500: !!!?? Ill mangle the secret so nobody finds out, ill make the repo look normal. &#xA;&#xA;quixel200: we&amp;#39;re so smart, nobody&amp;#39;s gonna find out, right?&#xA;&#xA;(they forgor to make it private in the end)&#xA;flag format: KALAM25{.....}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We have two usernames that we can infer from this conversation, &lt;code&gt;minato500&lt;/code&gt; and &lt;code&gt;quixel200&lt;/code&gt;. One of them says they made a &amp;lsquo;repo&amp;rsquo; which refers to a github repository. A quick google search would have been sufficient to learn about this.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Onion Peel</title>
