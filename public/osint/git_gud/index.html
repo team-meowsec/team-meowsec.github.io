@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
   
-    <title>Tags :: Terminal</title>
+    <title>Git Gud :: Terminal</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
+<meta name="description" content="Git Gud We intercepted a secret communication between 2 people, they seem to be planning a hack on google, can you find out their secret? quixel200: hey man, I made a repo to share our theories. minato500: good job, just make sure its private. quixel200: wait its public!!! minato500: !!!?? Ill mangle the secret so nobody finds out, ill make the repo look normal. quixel200: we&#39;re so smart, nobody&#39;s gonna find out, right? (they forgor to make it private in the end) flag format: KALAM25{.....} We have two usernames that we can infer from this conversation, minato500 and quixel200. One of them says they made a &lsquo;repo&rsquo; which refers to a github repository. A quick google search would have been sufficient to learn about this.
+" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="https://team-meowsec.github.io/tags/" />
+<link rel="canonical" href="https://team-meowsec.github.io/osint/git_gud/" />
 
 
 
@@ -76,10 +77,11 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Tags">
-<meta property="og:description" content="" />
-<meta property="og:url" content="https://team-meowsec.github.io/tags/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Git Gud">
+<meta property="og:description" content="Git Gud We intercepted a secret communication between 2 people, they seem to be planning a hack on google, can you find out their secret? quixel200: hey man, I made a repo to share our theories. minato500: good job, just make sure its private. quixel200: wait its public!!! minato500: !!!?? Ill mangle the secret so nobody finds out, ill make the repo look normal. quixel200: we&#39;re so smart, nobody&#39;s gonna find out, right? (they forgor to make it private in the end) flag format: KALAM25{.....} We have two usernames that we can infer from this conversation, minato500 and quixel200. One of them says they made a &lsquo;repo&rsquo; which refers to a github repository. A quick google search would have been sufficient to learn about this.
+" />
+<meta property="og:url" content="https://team-meowsec.github.io/osint/git_gud/" />
 <meta property="og:site_name" content="Terminal" />
 
   <meta property="og:image" content="https://team-meowsec.github.io/og-image.png">
@@ -88,10 +90,10 @@
 <meta property="og:image:height" content="627">
 
 
+  <meta property="article:published_time" content="2025-08-04 09:53:27 &#43;0530 IST" />
 
 
 
-  <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Terminal" />
 
 
 
@@ -203,14 +205,56 @@
 
   <div class="content">
     
-  <div class="terms">
-    <h1>Tags</h1>
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://team-meowsec.github.io/osint/git_gud/">Git Gud</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-08-04</time></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="git-gud">Git Gud<a href="#git-gud" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<pre tabindex="0"><code>We intercepted a secret communication between 2 people, they seem to be planning a hack on google, can you find out their secret?
+
+quixel200: hey man, I made a repo to share our theories. 
+
+minato500: good job, just make sure its private. 
+
+quixel200: wait its public!!! 
+
+minato500: !!!?? Ill mangle the secret so nobody finds out, ill make the repo look normal. 
+
+quixel200: we&#39;re so smart, nobody&#39;s gonna find out, right?
+
+(they forgor to make it private in the end)
+flag format: KALAM25{.....}
+</code></pre><p>We have two usernames that we can infer from this conversation, <code>minato500</code> and <code>quixel200</code>. One of them says they made a &lsquo;repo&rsquo; which refers to a github repository. A quick google search would have been sufficient to learn about this.</p>
+<p>Now we can start looking at repositories and you&rsquo;ll notice one of them stand out on the <code>quixel200</code> user called <code>y0u_c4n7_s33_m3</code>.</p>
+<ul>
+<li>Firstly its named weirdly with leet speak.</li>
+<li>secondly it says &ldquo;you cant see me&rdquo;, when you clearly can.</li>
+</ul>
+<p><img src="/osint/git_gud/github_repo.png" alt="repository"></p>
+<p>Now the repository does contain some rabbit holes and random text. But if you read the conversation carefully he says &ldquo;Ill mangle the secret&rdquo;. Unfortunately changes made to a github repository are public and if we look at the commits we see a suspicious one.</p>
+<p><img src="/osint/git_gud/commits.png" alt="found 0 day"></p>
+<p>quixel200 claims that they found a zero day, and minato500 then proceeds to shred it, if we look at the file that was created and modified, we can see the encrypted flag, now you can either compile and run the program to get the flag or just decode from the ascii values, the xor doesn&rsquo;t do anything since we use the key 1.</p>
+<p>Final flag:</p>
+<pre tabindex="0"><code>KALAM25{pu81ic_r3p0s_a4e_d4ng3rOus_Z2l0aXNjb29s}
+</code></pre>
+      </div></div>
+
+  
+
+  
     
-    <ul>
-      
-      
-    </ul>
-  </div>
+
+  
+</article>
 
   </div>
 
