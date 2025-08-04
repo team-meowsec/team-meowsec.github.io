@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forensics on Terminal</title>
+    <link>https://team-meowsec.github.io/forensics/</link>
+    <description>Recent content in Forensics on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Aug 2025 09:59:22 +0530</lastBuildDate>
+    <atom:link href="https://team-meowsec.github.io/forensics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Corrupted Vision</title>
+      <link>https://team-meowsec.github.io/forensics/corrupted_vison/</link>
+      <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
+      <guid>https://team-meowsec.github.io/forensics/corrupted_vison/</guid>
+      <description>Corrupted Vision Do you know about file signatures? This one has some bytes that are not right. Find the right ones, replace it and the flag is yours. While seeing the file extension, it was png but to confirm it we can use the file command (It is a shell command for reporting the type of data contained in a file). But it shows as data so something is weird</description>
+    </item>
+    <item>
+      <title>Data about Data</title>
+      <link>https://team-meowsec.github.io/forensics/data_about_data/</link>
+      <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
+      <guid>https://team-meowsec.github.io/forensics/data_about_data/</guid>
+      <description>Data about Data An image is worth a thousand words… but maybe just one flag. Your task is to inspect this seemingly innocent image and find something hidden but not encrypted. The flag is not in the pixels, but in the details. Metadata describes information about a file without being part of the main content itself, it can contains the informations like descriptions, image size, width, height and lot more and exiftool is used for reading, writing, and editing metadata in image, audio, video, PDF, and other types of files</description>
+    </item>
+    <item>
+      <title>EOF</title>
+      <link>https://team-meowsec.github.io/forensics/eof/</link>
+      <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
+      <guid>https://team-meowsec.github.io/forensics/eof/</guid>
+      <description>EOF I have hidden some text in this image, I bet no one can find this hehehe.. Here a text or flag is hidden in the image, there are various methods to hide the text in the image like hiding in metadata, head or tail and LSB, etc.&#xA;Now checking the strings or readable character in the file using the strings command which is a utility in Linux that extracts human-readable text strings from binary files, but the result shows nothing important.</description>
+    </item>
+  </channel>
+</rss>
