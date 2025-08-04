@@ -26,7 +26,7 @@ we refer it in [Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures
 
 Now the file is viewable
 
-![image](cv3.png)
+![image](flag.png)
 
 Final Flag:
 

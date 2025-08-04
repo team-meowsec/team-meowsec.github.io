@@ -13,21 +13,21 @@
       <link>https://team-meowsec.github.io/forensics/corrupted_vison/</link>
       <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
       <guid>https://team-meowsec.github.io/forensics/corrupted_vison/</guid>
-      <description>&lt;h1 id=&#34;corrupted-vision&#34;&gt;Corrupted Vision&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Do you know about file signatures? This one has some bytes that are not right. Find the right ones, replace it and the flag is yours.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;While seeing the file extension, it was png but to confirm it we can use the &lt;strong&gt;file&lt;/strong&gt; command (It is a shell command for reporting the type of data contained in a file). But it shows as data so something is weird&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://team-meowsec.github.io/forensics/corrupted_vison/cv1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</description>
+      <description>Corrupted Vision Do you know about file signatures? This one has some bytes that are not right. Find the right ones, replace it and the flag is yours. While seeing the file extension, it was png but to confirm it we can use the file command (It is a shell command for reporting the type of data contained in a file). But it shows as data so something is weird</description>
     </item>
     <item>
       <title>Data about Data</title>
       <link>https://team-meowsec.github.io/forensics/data_about_data/</link>
       <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
       <guid>https://team-meowsec.github.io/forensics/data_about_data/</guid>
-      <description>&lt;h1 id=&#34;data-about-data&#34;&gt;Data about Data&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;An image is worth a thousand words… but maybe just one flag. Your task is to inspect this seemingly innocent image and find something hidden but not encrypted. The flag is not in the pixels, but in the details.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;Metadata&lt;/code&gt; describes information about a file without being part of the main content itself, it can contains the informations like descriptions, image size, width, height and lot more and exiftool is used for reading, writing, and editing metadata in image, audio, video, PDF, and other types of files&lt;/p&gt;</description>
+      <description>Data about Data An image is worth a thousand words… but maybe just one flag. Your task is to inspect this seemingly innocent image and find something hidden but not encrypted. The flag is not in the pixels, but in the details. Metadata describes information about a file without being part of the main content itself, it can contains the informations like descriptions, image size, width, height and lot more and exiftool is used for reading, writing, and editing metadata in image, audio, video, PDF, and other types of files</description>
     </item>
     <item>
       <title>EOF</title>
       <link>https://team-meowsec.github.io/forensics/eof/</link>
       <pubDate>Mon, 04 Aug 2025 09:59:22 +0530</pubDate>
       <guid>https://team-meowsec.github.io/forensics/eof/</guid>
-      <description>&lt;h1 id=&#34;eof&#34;&gt;EOF&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;I have hidden some text in this image, I bet no one can find this hehehe..&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here a text or flag is hidden in the image, there are various methods to hide the text in the image like hiding in metadata, head or tail and LSB, etc.&lt;/p&gt;&#xA;&lt;p&gt;Now checking the &lt;strong&gt;strings or readable character&lt;/strong&gt; in the file using the strings command which is a utility in Linux that extracts human-readable text strings from binary files, but the result shows nothing important.&lt;/p&gt;</description>
+      <description>EOF I have hidden some text in this image, I bet no one can find this hehehe.. Here a text or flag is hidden in the image, there are various methods to hide the text in the image like hiding in metadata, head or tail and LSB, etc.&#xA;Now checking the strings or readable character in the file using the strings command which is a utility in Linux that extracts human-readable text strings from binary files, but the result shows nothing important.</description>
     </item>
   </channel>
 </rss>
