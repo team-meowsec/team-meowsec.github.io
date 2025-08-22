@@ -44,5 +44,4 @@ Final flag:
 KALAM25{pu81ic_r3p0s_a4e_d4ng3rOus_Z2l0aXNjb29s}
 ```
 
-Oopsie this is a different flag for a future ctf 
-`meowsec{Th3_m0r3_y0u_know}`
+
